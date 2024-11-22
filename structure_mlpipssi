@@ -1,0 +1,148 @@
+// MLP
+digraph {
+	rankdir=LR size="8,5"
+	node [color=lightblue shape=circle style=filled]
+	I0 [label=I0]
+	I1 [label=I1]
+	I2 [label=I2]
+	I3 [label=I3]
+	I4 [label=I4]
+	I5 [label=I5]
+	I6 [label=I6]
+	I7 [label=I7]
+	I8 [label=I8]
+	I9 [label=I9]
+	I10 [label=I10]
+	I11 [label=I11]
+	I12 [label=I12]
+	node [color=lightgreen shape=circle style=filled]
+	H1_0 [label=H1_0]
+	H1_1 [label=H1_1]
+	H1_2 [label=H1_2]
+	H1_3 [label=H1_3]
+	H1_4 [label=H1_4]
+	H1_5 [label=H1_5]
+	H2_0 [label=H2_0]
+	H2_1 [label=H2_1]
+	H2_2 [label=H2_2]
+	H2_3 [label=H2_3]
+	node [color=lightsalmon shape=circle style=filled]
+	O0 [label=O0]
+	O1 [label=O1]
+	O2 [label=O2]
+	edge [color=gray]
+	I0 -> H1_0
+	I0 -> H1_1
+	I0 -> H1_2
+	I0 -> H1_3
+	I0 -> H1_4
+	I0 -> H1_5
+	I1 -> H1_0
+	I1 -> H1_1
+	I1 -> H1_2
+	I1 -> H1_3
+	I1 -> H1_4
+	I1 -> H1_5
+	I2 -> H1_0
+	I2 -> H1_1
+	I2 -> H1_2
+	I2 -> H1_3
+	I2 -> H1_4
+	I2 -> H1_5
+	I3 -> H1_0
+	I3 -> H1_1
+	I3 -> H1_2
+	I3 -> H1_3
+	I3 -> H1_4
+	I3 -> H1_5
+	I4 -> H1_0
+	I4 -> H1_1
+	I4 -> H1_2
+	I4 -> H1_3
+	I4 -> H1_4
+	I4 -> H1_5
+	I5 -> H1_0
+	I5 -> H1_1
+	I5 -> H1_2
+	I5 -> H1_3
+	I5 -> H1_4
+	I5 -> H1_5
+	I6 -> H1_0
+	I6 -> H1_1
+	I6 -> H1_2
+	I6 -> H1_3
+	I6 -> H1_4
+	I6 -> H1_5
+	I7 -> H1_0
+	I7 -> H1_1
+	I7 -> H1_2
+	I7 -> H1_3
+	I7 -> H1_4
+	I7 -> H1_5
+	I8 -> H1_0
+	I8 -> H1_1
+	I8 -> H1_2
+	I8 -> H1_3
+	I8 -> H1_4
+	I8 -> H1_5
+	I9 -> H1_0
+	I9 -> H1_1
+	I9 -> H1_2
+	I9 -> H1_3
+	I9 -> H1_4
+	I9 -> H1_5
+	I10 -> H1_0
+	I10 -> H1_1
+	I10 -> H1_2
+	I10 -> H1_3
+	I10 -> H1_4
+	I10 -> H1_5
+	I11 -> H1_0
+	I11 -> H1_1
+	I11 -> H1_2
+	I11 -> H1_3
+	I11 -> H1_4
+	I11 -> H1_5
+	I12 -> H1_0
+	I12 -> H1_1
+	I12 -> H1_2
+	I12 -> H1_3
+	I12 -> H1_4
+	I12 -> H1_5
+	H1_0 -> H2_0
+	H1_0 -> H2_1
+	H1_0 -> H2_2
+	H1_0 -> H2_3
+	H1_1 -> H2_0
+	H1_1 -> H2_1
+	H1_1 -> H2_2
+	H1_1 -> H2_3
+	H1_2 -> H2_0
+	H1_2 -> H2_1
+	H1_2 -> H2_2
+	H1_2 -> H2_3
+	H1_3 -> H2_0
+	H1_3 -> H2_1
+	H1_3 -> H2_2
+	H1_3 -> H2_3
+	H1_4 -> H2_0
+	H1_4 -> H2_1
+	H1_4 -> H2_2
+	H1_4 -> H2_3
+	H1_5 -> H2_0
+	H1_5 -> H2_1
+	H1_5 -> H2_2
+	H1_5 -> H2_3
+	H2_0 -> O0
+	H2_0 -> O1
+	H2_0 -> O2
+	H2_1 -> O0
+	H2_1 -> O1
+	H2_1 -> O2
+	H2_2 -> O0
+	H2_2 -> O1
+	H2_2 -> O2
+	H2_3 -> O0
+	H2_3 -> O1
+	H2_3 -> O2
+}
